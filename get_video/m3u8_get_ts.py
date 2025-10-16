@@ -3,7 +3,7 @@ import requests
 from urllib.parse import urljoin
 
 # 配置项
-M3U8_URL = "https://vip1.lz-cdn.com/20220416/8729_26f95815/1200k/hls/mixed.m3u8"  # 替换为实际的m3u8文件URL
+M3U8_URL = ""  # 替换为实际的m3u8文件URL
 OUTPUT_TXT = "./ts_urls.txt"  # 保存TS地址的文本文件
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 
